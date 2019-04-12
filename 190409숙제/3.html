@@ -1,0 +1,59 @@
+<html>
+<head>
+  <title>My Calculator</title>
+  <link rel="stylesheet" type="text/css" href="3.css">
+</head>
+
+<body>
+
+  <table>
+
+    <tbody>
+
+      <tr>
+        <td colspan="4"><div id = "display" class = "text"></div></td>
+      </tr>
+
+      <tr>
+        <td colspan="4"><div id = "result" class = "text"></div></td>
+      </tr>
+
+      <tr>
+        <td><button id = "buttion_7" onclick="calc_button_click(this)">7</button></td>
+        <td><button id = "buttion_8" onclick="calc_button_click(this)">8</button></td>
+        <td><button id = "buttion_9" onclick="calc_button_click(this)">9</button></td>
+        <td><button id = "buttion_mul" onclick="calc_button_click(this)">×</button></td>
+      </tr>
+
+      <tr>
+        <td><button id = "buttion_4" onclick="calc_button_click(this)">4</button></td>
+        <td><button id = "buttion_5" onclick="calc_button_click(this)">5</button></td>
+        <td><button id = "buttion_6" onclick="calc_button_click(this)">6</button></td>
+        <td><button id = "buttion_minus" onclick="calc_button_click(this)">-</button></td>
+      </tr>
+
+      <tr>
+        <td><button id = "buttion_1" onclick="calc_button_click(this)">1</button></td>
+        <td><button id = "buttion_2" onclick="calc_button_click(this)">2</button></td>
+        <td><button id = "buttion_3" onclick="calc_button_click(this)">3</button></td>
+        <td><button id = "buttion_plus" onclick="calc_button_click(this)">+</button></td>
+      </tr>
+
+      <tr>
+        <td><button id = "buttion_pm" onclick="calc_clear_button_click(this)">CE</button></td>
+        <td><button id = "buttion_0" onclick="calc_button_click(this)">0</button></td>
+        <td><button id = "buttion_div" onclick="calc_button_click(this)">÷</button></td>
+        <td><button id = "buttion_eq" onclick="calc_button_click(this)">=</button></td>
+      </tr>
+
+      <tr>
+        <td colspan="4"><button onclick = "calc_allclear_button_click()">AC</button></td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+  <script src="3.js"></script>
+</body>
+</html>
